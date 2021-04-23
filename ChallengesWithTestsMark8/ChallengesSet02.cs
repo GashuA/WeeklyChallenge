@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -7,7 +8,18 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+
+            //if (char.IsLetter(c))
+            //{
+            //    Console.WriteLine("The Character is a letter");
+            //}
+            //else
+            //    {
+            //    Console.WriteLine("The Character is not a letter");
+            //}
+           // var result = (char.IsLetter(c)) ? "The character is a Letter" : "Not a letter";
+
+           throw new NotImplementedException();
         }
 
         public bool CountOfElementsIsEven(string[] vals)

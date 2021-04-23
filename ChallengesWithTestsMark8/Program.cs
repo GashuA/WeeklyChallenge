@@ -6,7 +6,13 @@ namespace ChallengesWithTestsMark8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
+            ChallengesSet01 challengeset01 = new ChallengesSet01();
+            Console.WriteLine(challengeset01.Subtract(22.5, 10.9));
+
+
+            ChallengesSet02 challengeset02 = new ChallengesSet02();
+
+            //Console.WriteLine(); challengeset02.CharacterIsALetter("Abebe" );
         }
     }
 }
